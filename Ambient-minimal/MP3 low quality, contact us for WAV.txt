@@ -1,0 +1,20 @@
+MP3 format downgrades quality a lot! It creates artifacts, cut trebles, change transients, creates little bit of distortion and harshness
+also every player decode different mp3 codec/settings of data compression different. Mp3 isused because of file size and it is standard 
+format for online music distribution, streaming etc.
+
+
+Please contact us for high quality WAV files at: 
+
+onlinemasteringstudioeu@gmail.com
+
+www.onlinemasteringstudio.eu
+
+
+
+
+
+Please listen with High quality Hi-Fi Soundsystem (PMC, Bowers?& Wilkins, KEF, Tannoy etc.) or HQ open back headphones 
+(Senheiser, Beyerdynamic etc.) NOT near-field monitors which are not suitable for mastering! (only mixing)
+
+
+Please use high quality player - Winamp, Samplitude (Windows Media Player is NOT suggested)

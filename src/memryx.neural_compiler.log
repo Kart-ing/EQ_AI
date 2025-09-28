@@ -1,0 +1,18 @@
+[09/28/2025 06:25:36 AM][memryx.neural_compiler.nc][INFO] MemryX Neural Compiler log
+[09/28/2025 06:25:36 AM][memryx.neural_compiler.nc][INFO] Anonymous user ID: memryxdevkitx86
+[09/28/2025 06:25:36 AM][memryx.neural_compiler.nc][INFO] SDK version: 2.0.5
+[09/28/2025 06:25:36 AM][memryx.neural_compiler.nc][INFO] System info: Linux, 6.14.0-29-generic, x86_64, Python 3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]
+[09/28/2025 06:25:36 AM][memryx.neural_compiler.nc][ERROR] Traceback (most recent call last):
+  File "/home/memryx/mx/bin/mx_nc", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "memryx/neural_compiler/nc.py", line 2178, in memryx.neural_compiler.nc.main
+  File "memryx/neural_compiler/nc.py", line 1420, in memryx.neural_compiler.nc.NeuralCompiler.run
+  File "memryx/neural_compiler/nc.py", line 1399, in memryx.neural_compiler.nc.NeuralCompiler.run
+  File "memryx/neural_compiler/nc.py", line 1464, in memryx.neural_compiler.nc.NeuralCompiler.load
+  File "memryx/neural_compiler/graph/framework/model_loader_factory.py", line 447, in memryx.neural_compiler.graph.framework.model_loader_factory.ModelLoader.load
+  File "memryx/neural_compiler/graph/framework/model_loader_factory.py", line 444, in memryx.neural_compiler.graph.framework.model_loader_factory.ModelLoader.load
+FileNotFoundError: [Errno 2] No such file or directory: '/home/memryx/Desktop/EQ_AI/src/balanced_genre_model.onnx'
+
+[09/28/2025 06:25:36 AM][urllib3.connectionpool][DEBUG] Starting new HTTP connection (1): ann.mws.memryx.com:42069
+[09/28/2025 06:25:36 AM][memryx.neural_compiler.nc][ERROR] HTTPConnectionPool(host='ann.mws.memryx.com', port=42069): Max retries exceeded with url: /upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7469ff7ab410>: Failed to establish a new connection: [Errno 111] Connection refused'))
