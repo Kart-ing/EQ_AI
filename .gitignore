@@ -1,13 +1,33 @@
-# Ignore fma_medium file/directory
+# Virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# macOS files
+.DS_Store
+
+# Large dataset folder
+src/fma_metadata/
+**/src/fma_metadata
+**/src/fma_metadata/
 fma_medium
 fma_medium/
 **/fma_medium
 **/fma_medium/
 
+# Large dataset folder
 fma_metadata
 fma_metadata/
 **/fma_metadata
-**/fma_metadata/
-
+**/fma_metadata
 venv/
 src/fma_metadata/
+**/src/fma_metadata
+**/src/fma_metadata
+venv/
+venv/
+**/venv
+**/venv/
+
