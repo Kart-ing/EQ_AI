@@ -1,0 +1,40 @@
+[09/28/2025 12:33:19 AM][memryx.neural_compiler.nc][INFO] MemryX Neural Compiler log
+[09/28/2025 12:33:19 AM][memryx.neural_compiler.nc][INFO] Anonymous user ID: memryxdevkitx86
+[09/28/2025 12:33:19 AM][memryx.neural_compiler.nc][INFO] SDK version: 2.0.5
+[09/28/2025 12:33:19 AM][memryx.neural_compiler.nc][INFO] System info: Linux, 6.14.0-29-generic, x86_64, Python 3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]
+[09/28/2025 12:33:19 AM][memryx.neural_compiler.nc][INFO] Model 0 framework: onnx
+[09/28/2025 12:33:19 AM][memryx.neural_compiler.nc][INFO] Model 0 parameter count: 186047
+[09/28/2025 12:33:19 AM][memryx.neural_compiler.nc][INFO] Model 0 input shapes: [[1, 12]]
+[09/28/2025 12:33:19 AM][memryx.neural_compiler.graph.extensions][INFO] importing memryx.neural_compiler.graph.framework.onnx.ops.Activations
+[09/28/2025 12:33:19 AM][memryx.neural_compiler.graph.extensions][INFO] importing memryx.neural_compiler.graph.framework.onnx.ops.Bool
+[09/28/2025 12:33:19 AM][memryx.neural_compiler.graph.extensions][INFO] importing memryx.neural_compiler.graph.framework.onnx.ops.Conv
+[09/28/2025 12:33:19 AM][memryx.neural_compiler.graph.extensions][INFO] importing memryx.neural_compiler.graph.framework.onnx.ops.Math
+[09/28/2025 12:33:19 AM][memryx.neural_compiler.graph.extensions][INFO] importing memryx.neural_compiler.graph.framework.onnx.ops.Matrix
+[09/28/2025 12:33:19 AM][memryx.neural_compiler.graph.extensions][INFO] importing memryx.neural_compiler.graph.framework.onnx.ops.Merge
+[09/28/2025 12:33:19 AM][memryx.neural_compiler.graph.extensions][INFO] importing memryx.neural_compiler.graph.framework.onnx.ops.Normalization
+[09/28/2025 12:33:19 AM][memryx.neural_compiler.graph.extensions][INFO] importing memryx.neural_compiler.graph.framework.onnx.ops.Other
+[09/28/2025 12:33:19 AM][memryx.neural_compiler.graph.extensions][INFO] importing memryx.neural_compiler.graph.framework.onnx.ops.Pool
+[09/28/2025 12:33:19 AM][memryx.neural_compiler.graph.extensions][INFO] importing memryx.neural_compiler.graph.framework.onnx.ops.QLinear
+[09/28/2025 12:33:19 AM][memryx.neural_compiler.graph.extensions][INFO] importing memryx.neural_compiler.graph.framework.onnx.ops.Reduce
+[09/28/2025 12:33:19 AM][memryx.neural_compiler.graph.extensions][INFO] importing memryx.neural_compiler.graph.framework.onnx.ops.Reshape
+[09/28/2025 12:33:19 AM][memryx.neural_compiler.graph.extensions][INFO] importing memryx.neural_compiler.graph.framework.onnx.ops.Resize
+[09/28/2025 12:33:19 AM][memryx.neural_compiler.graph.extensions][INFO] importing memryx.neural_compiler.graph.framework.onnx.subgraphs.ClipResNet50
+[09/28/2025 12:33:19 AM][memryx.neural_compiler.graph.extensions][INFO] importing memryx.neural_compiler.graph.framework.onnx.subgraphs.Common
+[09/28/2025 12:33:19 AM][memryx.neural_compiler.graph.extensions][INFO] importing memryx.neural_compiler.graph.framework.onnx.subgraphs.ConvNext
+[09/28/2025 12:33:19 AM][memryx.neural_compiler.graph.extensions][INFO] importing memryx.neural_compiler.graph.framework.onnx.subgraphs.DFINE
+[09/28/2025 12:33:19 AM][memryx.neural_compiler.graph.extensions][INFO] importing memryx.neural_compiler.graph.framework.onnx.subgraphs.RTDETRv2
+[09/28/2025 12:33:19 AM][memryx.neural_compiler.graph.extensions][INFO] importing memryx.neural_compiler.graph.framework.onnx.subgraphs.TinyStories
+[09/28/2025 12:33:19 AM][memryx.neural_compiler.graph.extensions][INFO] importing memryx.neural_compiler.graph.framework.onnx.subgraphs.VitSmall
+[09/28/2025 12:33:19 AM][memryx.neural_compiler.graph.extensions][INFO] importing memryx.neural_compiler.graph.framework.onnx.subgraphs.VitTiny
+[09/28/2025 12:33:19 AM][memryx.neural_compiler.graph.extensions][INFO] importing memryx.neural_compiler.graph.framework.onnx.subgraphs.YoloWorld
+[09/28/2025 12:33:19 AM][memryx.neural_compiler.graph.extensions][INFO] importing memryx.neural_compiler.graph.framework.onnx.subgraphs.Yolov10
+[09/28/2025 12:33:20 AM][memryx.neural_compiler.nc][INFO] Model 0 operator count: 23
+[09/28/2025 12:33:20 AM][memryx.neural_compiler.nc][INFO] Model 0 operators: {'Dense': 8, 'ReLU': 7, 'BatchNormalization': 6, 'Input': 1, 'Output': 1}
+[09/28/2025 12:33:20 AM][memryx.neural_compiler.mapper.map][INFO] Creating 0 extra process(es) for mapping 1 sweep(s) with effort normal...
+[09/28/2025 12:33:20 AM][memryx.neural_compiler.mapper.map][INFO] Sweep index 0 produced best mapping with estimated fps = 56603.8
+[09/28/2025 12:33:20 AM][memryx.neural_compiler.mapper.map][INFO] MPU 0 input  port 0: {'model_index': 0, 'layer_name': 'input', 'shape': [1, 1, 1, 12]}
+[09/28/2025 12:33:20 AM][memryx.neural_compiler.mapper.map][INFO] MPU 3 output port 0: {'model_index': 0, 'layer_name': 'output', 'shape': [1, 1, 1, 15]}
+[09/28/2025 12:33:20 AM][memryx.neural_compiler.nc][INFO] Mapped to 4 chips of gen 3.1
+[09/28/2025 12:33:20 AM][memryx.neural_compiler.nc][INFO] Compilation successful
+[09/28/2025 12:33:20 AM][urllib3.connectionpool][DEBUG] Starting new HTTP connection (1): ann.mws.memryx.com:42069
+[09/28/2025 12:33:20 AM][memryx.neural_compiler.nc][ERROR] HTTPConnectionPool(host='ann.mws.memryx.com', port=42069): Max retries exceeded with url: /upload (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7d3d87df8dd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
