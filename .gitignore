@@ -1,0 +1,5 @@
+# Ignore fma_medium file/directory
+fma_medium
+fma_medium/
+**/fma_medium
+**/fma_medium/
