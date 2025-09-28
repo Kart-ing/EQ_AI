@@ -8,3 +8,6 @@ fma_metadata
 fma_metadata/
 **/fma_metadata
 **/fma_metadata/
+
+venv/
+src/fma_metadata/
